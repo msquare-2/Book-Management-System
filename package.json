@@ -1,0 +1,20 @@
+{
+  "name": "book-management-system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msquare-2/Book-Management-System.git"
+  },
+  "keywords": [],
+  "author": "Mustafa Dhar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/msquare-2/Book-Management-System/issues"
+  },
+  "homepage": "https://github.com/msquare-2/Book-Management-System#readme"
+}
