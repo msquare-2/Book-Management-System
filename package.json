@@ -1,25 +1,26 @@
 {
-  "name": "book-management-system",
+  "name": "book-keeping-app",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Book keeping app",
+  "main": "server.js",
   "scripts": {
-    "server": "nodemon backend/server.js"
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js",
+    "client": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/msquare-2/Book-Management-System.git"
-  },
-  "keywords": [],
-  "author": "Mustafa Dhar",
+  "author": "Emmanuel Tweneboah",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/msquare-2/Book-Management-System/issues"
-  },
-  "homepage": "https://github.com/msquare-2/Book-Management-System#readme",
   "dependencies": {
-    "express": "^4.17.2",
-    "mongoose": "^6.1.8",
-    "nodemon": "^2.0.15"
+    "bcryptjs": "^2.4.3",
+    "concurrently": "^5.3.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.9"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.5"
   }
 }
