@@ -20,7 +20,7 @@ const Navbar = props => {
     <header>
       <nav className='navbar navbar-expand-lg navbar-dark bg-dark'>
         <a className='navbar-brand' to='/'>
-          BK
+          BMS
         </a>
         <button
           className='navbar-toggler'
