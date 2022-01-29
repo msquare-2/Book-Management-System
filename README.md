@@ -2,10 +2,6 @@
 
 **NOTE:** This repository is assignment given from Walbury Technolabs as one of the round in Interview process.
 
-## View live App
-
-Hosted at:
-
 ## User Permissions
 
 A user can
